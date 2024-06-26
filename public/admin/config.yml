@@ -1,0 +1,39 @@
+backend:
+  name: git-gateway
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+editor:
+  preview: false
+collections:
+- name: "pages"
+  label: "Pages"
+  create: false
+  files:
+  - name: "home"
+    label: "Home"
+    file: "content/_index.md"
+    fields:
+      - name: "title"
+        label: "Title"
+        widget: "string"
+        required: true
+      - name: draft
+        label: Draft
+        widget: boolean
+        default: false
+        required: false
+      - name: "summary"
+        label: "Summary"
+        widget: "string"
+        hint: Max 120-150 characters
+        required: false
+      - name: "images"
+        label: "Images"
+        widget: "list"
+        label_singular: "image"
+        required: false
+        summary: '{{fields.image}}'
+        field: { name: "image", label: "Image", widget: "image", media_folder: "", required: false, allow_multiple: false, choose_url: false}
+      - name: "body"
+        label: "Body"
+        widget: "markdown"

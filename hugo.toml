@@ -1,0 +1,13 @@
+baseURL = 'https://13.127.196.95:3000'
+languageCode = 'en-us'
+title = 'LightHouse Communities'
+
+paginate = 4
+
+[params]
+  description = "The fastest blog"
+  dateFormat = "Jan 2, 2006"
+
+[taxonomies]
+  category = "categories"
+  author = "authors"

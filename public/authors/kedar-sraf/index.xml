@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kedar Sraf on LightHouse Communities</title>
+    <link>http://localhost:3000/authors/kedar-sraf/</link>
+    <description>Recent content in Kedar Sraf on LightHouse Communities</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Nov 2023 16:55:24 +0100</lastBuildDate>
+    <atom:link href="http://localhost:3000/authors/kedar-sraf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Youth Inspire</title>
+      <link>http://localhost:3000/my-fourth-post/</link>
+      <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
+      <guid>http://localhost:3000/my-fourth-post/</guid>
+      <description>Test Content</description>
+    </item>
+  </channel>
+</rss>
